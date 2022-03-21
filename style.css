@@ -30,34 +30,6 @@ body {
   grid-gap: 20px;
 }
 
-#search {
-  margin: 2.5rem auto;
-  width: fit-content;
-  position: relative;
-}
-
-#search::after {
-  content: '🔍';
-  position: absolute;
-  top: 4px;
-  right: 15px;
-}
-
-#searchBar {
-  width: 100%;
-  height: 2rem;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-
-  border: none;
-  outline: none;
-
-  border-radius: 1rem;
-  padding: 0 1rem;
-
-  font-size: 1.3rem;
-  color: rgb(255, 208, 0);
-}
-
 /* =========== CARDS =========== */
 .card {
   padding: 3rem;
